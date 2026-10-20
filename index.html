@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário da Oficina</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <section id="cabecalho">
+        <h1>Academia de Heróis</h1>
+        <small>Inscreva-se para participar da próxima missão.</small>
+        </section>
+        <main>
+        <form action="#" method="get">
+            <section id="inscricao">
+            <h2>Faça sua inscrição</h2>
+
+            <label for="nome">Nome do Herói</label>
+            <input id="nome" name="nome" type="text" />
+
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" />
+
+            <label for="idade">Idade</label>
+            <input id="idade" name="idade" type="number" />
+
+            
+            <label for="escolha">Escolha sua equipe</label>
+            <select id="escolha" name="escolha">
+                <option>Liga da Justiça</option>
+                <option>Vingadores</option>
+                <option>x-man</option>
+            </select>
+            
+            
+            <p>Qual poder você prefere?</p>
+
+            <section class="opcoes">
+            <input id="voar" name="voar" type="radio" />
+            <label for="voar">Voar</label>
+            </section>
+             <section class="opcoes">
+            <input id="supervelocidade" name="supervelocidade" type="radio">
+            <label for="supervelocidade">Supervelocidade</label>
+             </section>
+
+             <section class="opcoes">
+            <input id="Superforça" name="superforca" type="radio">
+            <label for="superforca">Superforça</label>
+             </section>
+
+             <section class="opcoes">
+            <input id="missoes" name="missoes" type="checkbox">
+            <label for="missoes">Quero receber novas missões</label>
+             </section>
+
+            <label for="expectativa">Por que você quer ser um herói? </label>
+            <textarea id="expectativa" name="expectativa" rows="4"></textarea>
+
+            <button type="submit">Enviar inscrição</button>
+            </section>
+
+        </form>
+        </main>
+    <footer>
+        <p>Prática de formulários HTML.</p>
+    </footer>
+    </body>
+</html>
